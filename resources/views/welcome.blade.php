@@ -1,4 +1,5 @@
 <h1> Registartion Form</h1>
+<h1> Registartion Form</h1>
 <form action="{{route('demo')}}" method="post">  
  @csrf
   <input type ="text" name="firstname" placeholder="Firstname"><br>
